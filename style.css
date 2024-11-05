@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/*first page*/
+.mainpage{
+    width: 1000%;
+    height:738px;
+    background: url('images/mainpage.jpg');
+    background-size:contain;
+}
+.navigationbar{
+    width: 100%;    /*navigation bar*/
+    height: 100px;
+  
+}
+.spacexlogocontainer{ 
+    height: 100px;
+    width: 325px;
+   
+
+}
+.logo{
+    width: 247px;
+    height: 87px;
+    padding-left: 82px;
+}
+.detailssection{
+    height: 75px;
+    width: 970px;
+    position: relative;
+    left: 294px;
+    top: -100px;
+    font-size: 14px;
+    padding-top: 25px;
+    font-weight: 500;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+}
+.elements{
+    list-style-type: none; /* Remove bullet points */
+          /* Remove default padding */
+          display: flex;
+          justify-content: space-between;
+}
+
+.elements1{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.elements1:hover{
+text-decoration: underline;
+}
+.shoppart{
+    height: 100px;
+    width: 200px;
+    left: 1327px;
+    position: relative;
+    top: -200px;
+}
+#menu{
+    color:white;
+    font-weight: 500;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: 23px;
+    left: 51px;
+}
+.menuimage{
+    width: 29px;
+    height: 27px;
+    position: relative;
+    left: 80px;
+    top: 29px;
+}
+.paragrah{
+    font-size: 26px;
+    color: white;
+    line-height: 38px;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+    position: relative;
+    left: 99px;
+    top: 316px;
+}
+.heading{
+    font-size: 48px;
+   position: relative;
+    color: white;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+    left: 98px;
+    top: 275px;
+   
+}
+.button{
+    width: 150px;
+    height:50px;
+    background-color:transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+    left: 98px;
+    top: 255px;
+    position: relative;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+}
+/*seconpage*/
+.secondpage{
+    width: 1000%;
+    height:738px;
+    background: url('images/secondpage.jpg');
+    background-size:contain;
+    margin-top: -26px;
+}
+#secondpageparagraph{
+    left: 95px;
+    top: 461px;
+    position: relative;
+    
+
+}
+#secondpagehead{
+    position: relative;
+    left: 95px;
+    top: 427px;
+}
+#secondpagebutton{
+    left: 98px;
+    top: 410px;
+    position: relative;
+}
+/*third page*/
+.thirdpage{
+    width: 1000%;
+    height:738px;
+    background: url('images/thirdpageimage.jpg');
+    background-size:contain;
+    margin-top: -26px;
+
+}
+
+#thirdpagehead2{
+    position: relative;
+    top: 329px;
+}
+#thirdpageparagraph{
+    font-size: 18px;
+    position: relative;
+    top: 426px;
+    }
+#thirdpagehead1{
+    position: relative;
+    top: 376px;
+}
+
+#thirdpagebutton{
+    position: relative;
+    top: 312px;
+}
+/*fourtpage*/
+.fourthpage{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height:738px;
+    margin-top:-59px;
+    overflow: hidden;
+}
+.fourthpagevideo{
+    width: 100%; 
+  }
+
+  #fourthpageparagraph{
+    position: relative;
+    top: -435px;
+    left: 111px;
+  }
+  #fourthpagehead1{
+    position: relative;
+    top: -473px;
+    left: 109px;
+}
+#fourthpagehead2
+  {
+    position: relative;
+    top: -517px;
+    left: 109px;
+}
+#fourthpagebutton{
+    position: relative;
+    top: -532px;
+    left: 109px;
+
+}
+/*fifth page*/
+.fifthpage{
+    width: 100%;
+    height:738px;
+
+}
+#image4{
+    width: 1793px;
+}
+#fifthpagehead1{
+    position: relative;
+    top: -354px;
+    left: 100px;
+}
+#fifthpagehead2{
+    position: relative;
+    top: -402px;
+    left: 100px;
+} 
+#fifthpagebutton{
+    position: relative;
+    top: -114px;
+    left: 100px;
+}
+/*sixth page*/
+.sixthpage
+{
+    width: 100%;
+    height:738px; 
+}
+#sixthpageimage{
+    width: 1793px;
+}
+#sixthpagehead1
+{
+    position: relative;
+    color: white;
+    top: -398px;
+}
+
+#sixthpagehead2{
+    position: relative;
+    top: -449px;
+    color: white
+}
+#sixthpagebutton{
+    position: relative;
+    top: -156px;
+}
+/*footer section*/
+.footer{
+    width:100%;
+    height:120px;
+    background-color: black;
+    text-align: center;
+}
+.footercontent{
+  
+    position: relative;
+    top: 50px;
+   
+}
+.copyright{
+    position: relative;
+    font-size: 12px;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    left: 10px;
+   padding-right: 20px;
+
+}
+.links{
+    color:white ;
+    text-decoration:none;
+    font-family: 'D-DIN-Regular', Arial, Verdana, sans-serif;
+    font-size:12px;
+  padding-left: 10px;
+}
+.links:hover{
+    opacity:0.5;
+}
